@@ -1,50 +1,49 @@
-*{
-  font-size: 25;
-  font-family: sans-serif;
+@import 'https://fonts.googleapis.com/css?family=Slabo+27px|Suez+One';
+@import 'https://fonts.googleapis.com/css?family=Cabin';
+
+body{
+  background-color: #107896;
 }
 
-#form{
-  text-align: center;
-  position: relative;
+.navbar-new{
+
+  background-color:lightblue;
+  /*background-color:#cccccc;*/
+}
+
+/*.navbar {min-height: 150px;}*/
+/*.navbar-brand {padding: 0 ; height: 80px; line-height: 150px;}*/
+
+.button-new{
+  background-color:lightblue;
+  border-color: black;
+  color: gray;
+}
+.button-new:hover{
   background-color: lightblue;
-  height: 500px;
-  width: 750px;
-  margin: 0 auto;
+  border-color:black;
 }
 
-#button{
-  height: 20px;
-  width: 20%;
-  color: blue;
+.left-fix{
+  padding-left: 0;
+  width: 30%;
+}
+.link_dec{
+  text-decoration:underline;
+  color:darkblue;
 }
 
-#button:hover{
-  background-color:white;
-  font-size:13.5;
+.padding{
+  padding: 0 16px;
 }
 
-
-.input{
-  text-align: left;
-  padding-left:10;
-  margin-left: 20;
-  background-color: white;
-}
-
-.message{
-  text-align: center;
-  margin-right: 20;
-  right: 0;
-  background-color: white;
-}
-
-.text-area{
-  text-align: left;
-  font-size:12;
-}
-
-.box{
-  height: 400px;
-  width: 340px;
-  position:absolute;
+.cabin{
+  color: white;
+  font-size:130%;
+  font-family: 'Cabin', sans-serif;
+  /*text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;*/
 }

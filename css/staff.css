@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Cabin|Noto+Serif';
+
+img{
+  width: 400px;
+}
+body{
+  color: white;
+}
+
+.dimensions{
+  width:500px;
+}
+
+.img_border{
+  border-style: solid;
+  border-color: grey;
+  border-width:thick;
+}
+.imgheight{
+  height:240px;
+  width:220px;
+  padding: 10px 10px;
+}
+
+.center_txt{
+    text-align:center;
+}
+
+.extrapad{
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.peopleCarouselImg img {
+  width: auto;
+  height: 312px;
+  max-height: 312px;
+}
+
+.margin_bot{
+  bottom: 20px;
+}
+
+.leftpad{
+  padding-left:50px;
+  margin-bottom:50px;
+}
+
+.fit_align{
+  left: 100px;
+  text-align:center;
+}
+
+.team-title{
+  padding-left: 20px;
+  font-size: 40px;
+  font-family: 'Noto Serif', sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.popdownmod{
+  width:200%;
+}
+
+.popover {
+  min-width:1200px;
+max-width: 1400px;
+}
+/*
+hr{
+  height:9px;
+  border: 1px solid white;
+  background-color: white;
+}*/
+
+.font_fix{
+  font-size: 1.4em;
+}
+
+.margins{
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.toppad{
+  padding-top:-30px;
+}
+
+.botpad{
+  padding-bottom:50px;
+}
