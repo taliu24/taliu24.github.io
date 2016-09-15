@@ -17,6 +17,20 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="../css/contact_form.css">
 
+
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD925sfxYUEwMksrALkrKd7E67C_nL0-RE",
+    authDomain: "farrell-and-farrell-eyecare.firebaseapp.com",
+    databaseURL: "https://farrell-and-farrell-eyecare.firebaseio.com",
+    storageBucket: "farrell-and-farrell-eyecare.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
@@ -54,7 +68,7 @@
 
     <div class="col-md-4">
       <h3>Insurance Plans</h3>
-      <p class="font_fix">
+      <p class="font_fix font_size">
         VSP Vision Care
         <br>
         MESVision
@@ -75,7 +89,7 @@
       </p>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 font_size">
       <h3>Eyecare Services</h3>
       Evaluation of Macular Degeneration
       <br>
